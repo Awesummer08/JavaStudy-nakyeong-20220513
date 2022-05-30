@@ -21,32 +21,22 @@ public class Array03 {
 //			}
 //		}
 		int[] numbers = {1, 2, 3, 4, 5, 6, 7};
+	
 		
-		for(int i = 0; i < numbers.length; i++) {
-			System.out.println(numbers[i] + numbers.length-1 > i ? ", " : "" );
-		}
-		
-		System.out.println();
-		System.out.println();
-		System.out.println();
-		
+		// 조건문 쓰는 방법
 		for(int i = 0; i < numbers.length; i++) {
 			System.out.print(numbers[i]);
-			if(numbers.length-1 != i) {
-				System.out.print(", ");
+			if(numbers.length != i) {
+				System.out.println(", ");
 			}
 		}
-		System.out.println();
-		System.out.println();
-
-		https://www.youtube.com/
+		
+		// 논리 연산자 쓰는 방법
 		for(int i = 0; i < numbers.length; i++) {
 			System.out.print(numbers[i] + (numbers.length-1 != i ? ", " : ""));
 		}
 		System.out.println();
-		System.out.println();
-		
-		
+
 		
 		// for each 문!
 		int i = 0;

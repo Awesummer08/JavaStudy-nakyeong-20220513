@@ -47,18 +47,6 @@ public class Method02 {
 //		}
 //		System.out.println("test6가 정상 종료되었습니다.");
 //	}
-//		
-
-	// 리턴자료형이 void일 때 메소드를 강제로 탈출하는 방법
-//	public static void test6() {
-//		for(int i =0; i < 10; i++) {
-//			System.out.println(i);
-//			if(i == 6) {
-//				System.out.println("메소드 탈출");
-//				return;
-//			}
-//		}
-//	}
 	
 	public static void test6() {
 		for(int i = 0; i < 10; i++) {

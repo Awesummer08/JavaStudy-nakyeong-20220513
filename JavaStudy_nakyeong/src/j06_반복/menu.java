@@ -10,14 +10,6 @@ public class menu {
 		boolean loopFlag = true;
 		
 		System.out.println("프로그램 시작");
-
-//		int i = 0;
-//		while(true) {
-//			if(i == 10) {
-//				break;
-//			}
-//			i++;
-//		}
 	
 		while(loopFlag) {
 			char select = 0;
@@ -27,7 +19,6 @@ public class menu {
 			System.out.println("2. python");
 			System.out.println("3. javascript");
 			System.out.println("q. 프로그램 종료");
-			
 			System.out.print("명령을 입력하세요: ");
 			select = scanner.nextLine().charAt(0);
 			System.out.println();
@@ -35,10 +26,11 @@ public class menu {
 			
 			if(select == 'q') {
 				break;
+				
 			}else if(select == '1') {
 				System.out.println("java를 선택하셨습니다.");
 				
-				while(true){
+				while(loopFlag){
 					System.out.println("[java 메뉴]");
 					System.out.println("1. java란?");
 					System.out.println("b. 뒤로가기");
@@ -63,7 +55,6 @@ public class menu {
 					
 					System.out.println();
 				}
-				
 				
 				
 			}else if(select == '2') {

@@ -5,9 +5,6 @@ import java.util.Scanner;
 public class If03 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-//변수를 입력받으니까, scanner 써야한다. 
-		
 		Scanner scanner = new Scanner(System.in);
 		int score = 0;
 		

@@ -31,14 +31,17 @@ public class Operation03 {
 		 * 
 		 */
 		 
-		int year = 1999;
-		int year2 = 2000;
-		boolean result = (year % 4 == 0) && (year % 100 == 0 ) || (year % 400 == 0);
-		boolean result2 = (year2 % 4 == 0) && (year2 % 100 == 0 ) || (year2 % 400 == 0);
-		
-		System.out.println(result);
-		System.out.println(result2);
-		
+//		int year = 1999;
+//		int year2 = 2000;
+//		boolean result = (year % 4 == 0) && (year % 100 == 0 ) || (year % 400 == 0);
+//		boolean result2 = (year2 % 4 == 0) && (year2 % 100 == 0 ) || (year2 % 400 == 0);
+//		
+//		System.out.println(result);
+//		System.out.println(result2);
+//		\
+		int year = 2000;
+		boolean result = (year % 4 == 0) && (year % 100 == 0) || (year % 400 == 0);
+		System.out.println();
 		
 		
 		

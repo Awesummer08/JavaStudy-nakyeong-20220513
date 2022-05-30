@@ -14,8 +14,8 @@ public class If02 {
 			System.out.println("만점입니다.");
 		}else if(score > 89) {
 			System.out.println("90점 이상입니다.");
-		}else if(score > 89) {
-			System.out.println("90점 이상입니다.");
+		}else if(score > 79) {
+			System.out.println("80점 이상입니다.");
 		}else {
 			System.out.println("...");
 		}
